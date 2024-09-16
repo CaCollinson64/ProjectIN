@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    //Movement
-    public float speed = 10.0f;
-    private float strafe;
-    private float move;
+    //Movement is commented out to use an FPS controller on the Unity Store.
+    //public float speed = 10.0f;
+    //private float strafe;
+    //private float move;
 
 
     //what do we need for interaction stuff?
@@ -78,12 +78,12 @@ public class PlayerController : MonoBehaviour
         }
 
         //Moovy
-        if (!isInteracting) // can't move while looking at stuff
-        {
-            move = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-            strafe = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-            transform.Translate(strafe, 0, move);
-        }
+        //if (!isInteracting) // can't move while looking at stuff
+        //{
+        //    move = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+        //    strafe = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+        //    transform.Translate(strafe, 0, move);
+        //}
 
         //Interact
         if (!isInteracting && !isLerping && Input.GetButtonDown("Fire1"))
@@ -98,10 +98,10 @@ public class PlayerController : MonoBehaviour
                 EnterInteract();
             }
 
-            else if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("NPC"))
-            {
-                EnterDialogue();
-            }
+            //else if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("NPC"))
+            //{
+            //    EnterDialogue();
+            //}
                 
             else
             {
@@ -110,10 +110,10 @@ public class PlayerController : MonoBehaviour
         }
         
         //Toggle mouse inversion
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            playerMouseLook.ToggleMouseInversion();
-        }
+        //if (Input.GetKeyDown(KeyCode.I))
+        //{
+        //    playerMouseLook.ToggleMouseInversion();
+        //}
     }
 
     private void EnterInteract() //set our interacting state, unlock the mouse cursor, and start the Lerp coroutine to bring the object to the camera so we can look at it closely
@@ -185,17 +185,17 @@ public class PlayerController : MonoBehaviour
     }
 
     // Dialogue stuff
-    public void EnterDialogue()
-    {
-        inDialogue = true;
-        playerMouseLook.inDialogue = true;
-        Cursor.lockState = CursorLockMode.None;
-    }
+    //public void EnterDialogue()
+    //{
+    //    inDialogue = true;
+    //    playerMouseLook.inDialogue = true;
+    //    Cursor.lockState = CursorLockMode.None;
+    //}
 
-    public void ExitDialogue()
-    {
-        inDialogue = false;
-        playerMouseLook.inDialogue = false;
-        Cursor.lockState = CursorLockMode.Locked;
-    }
+    //public void ExitDialogue()
+    //{
+    //    inDialogue = false;
+    //    playerMouseLook.inDialogue = false;
+    //    Cursor.lockState = CursorLockMode.Locked;
+    //}
 }
