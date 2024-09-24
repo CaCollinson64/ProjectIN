@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Microlight.MicroAudio;
 
 public class Dialogue_Manager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Dialogue_Manager : MonoBehaviour
     public Button nextButton;
     public GameObject dialoguePanel;
     public KeyCode nextKey = KeyCode.E;  // Key to progress dialogue
+    [SerializeField] AudioClip _textLoop;
 
     private Queue<string> sentences;
     private bool isDialogueActive = false;
@@ -67,7 +69,9 @@ public class Dialogue_Manager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(0.01f);  // Adjust this value to control the typing speed
+            MicroAudio.PlayUISound(_textLoop);
+            yield return new WaitForSeconds(0.005f);  // Adjust this value to control the typing speed
+            // I... Really should have rewritten this.
         }
     }
 

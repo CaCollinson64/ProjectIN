@@ -14,6 +14,7 @@ public class Trigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Dialogue Triggered");
         if (other.CompareTag("Player"))
         {
             TriggerDialogue();
