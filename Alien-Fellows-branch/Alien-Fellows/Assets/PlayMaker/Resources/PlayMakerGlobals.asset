@@ -200,10 +200,9 @@ MonoBehaviour:
       intValues: 
       boolValues: 
       stringValues:
-      - Wait a sec, Somethin ain't right here.
-      - Maybe i should ask a friend for help?
-      - Why are you still doing this?
-      - Go to the computer.
+      - Wait a sec, Somethin ain't right here. Didn't you get UMBER?
+      - You got Umber... Why is it showing VIRIDIAN?
+      - Maybe... ask a VIRIDIAN for help.
       vector4Values: []
       objectReferences: []
     enumVariables: []
