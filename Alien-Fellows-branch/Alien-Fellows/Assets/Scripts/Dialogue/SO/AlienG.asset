@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: AlienG
   sentences:
-  - ... Real wise guy, huh? I bet you've got a lot of friends.
+  - ... Real wise guy, huh? I bet you've got a lot of friends. Ask em for help, y'know?
   - Anyways, it looks like you got VIRIDIAN.
   - .... What, you think this is a YELLOW? You still think this is a joke, don't
     you?
   - Yeah yeah, you picked that dumb bathroom joke. Laugh it up.
   - This dialogue is very deep.
-  - Enter that door whenever you feel like it.
+  - That door leads to your DREAM.
+  - Stopped clocks? You must be really fun at parties.
+  - I wonder what UMBER is up to.

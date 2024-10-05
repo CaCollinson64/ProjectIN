@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: AlienP
   sentences:
-  - ...
-  - Welcome.
+  - ...Welcome.
   - You've been assigned... PINK?
   - A yearning for the universe.
-  - This dialogue is very deep.
-  - Enter that door whenever you feel like it.
+  - You feel above others, perhaps.
+  - That door leads to your DREAM.
+  - Precariously positioned, precise patterns.
+  - ... but why is it CYAN?
