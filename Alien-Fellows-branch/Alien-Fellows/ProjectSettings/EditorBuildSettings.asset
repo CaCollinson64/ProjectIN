@@ -6,9 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Blockout.unity
+    path: Assets/Scenes/Quiz.unity
+    guid: 3b292e766598a154ca0c7eede6fcbda0
+  - enabled: 1
+    path: Assets/Scenes/CRoom.unity
     guid: 9a9ed01e08df9db40a74d29a41fe33ab
   - enabled: 1
-    path: Assets/Scenes/EmptyRoom.unity
-    guid: 92286e488e7c229419826cc9c9e02e86
+    path: Assets/Scenes/PRoom.unity
+    guid: fd22ec82b8a0dd540b1ac16505265059
+  - enabled: 1
+    path: Assets/Scenes/URoom.unity
+    guid: 7404c7a5516ab4c45be63fb6bd0cdf8f
+  - enabled: 1
+    path: Assets/Scenes/VRoom.unity
+    guid: 79611485bc13cbc4d868ae58c3def869
+  - enabled: 1
+    path: Assets/Scenes/CDream.unity
+    guid: 752fc6bea79cc234cae5eda5b9537a18
+  - enabled: 1
+    path: Assets/Scenes/PDream.unity
+    guid: ca68f64895abd4a4099aabfad07aa68a
+  - enabled: 1
+    path: Assets/Scenes/UDream.unity
+    guid: f4e75f643887e50439a26248e2e30aaf
+  - enabled: 1
+    path: Assets/Scenes/VDream.unity
+    guid: bc26d8a642ec8ca46bcd08f767b2cbc3
   m_configObjects: {}

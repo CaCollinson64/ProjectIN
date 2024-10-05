@@ -70,7 +70,7 @@ public class Dialogue_Manager : MonoBehaviour
         {
             dialogueText.text += letter;
             MicroAudio.PlayUISound(_textLoop);
-            yield return new WaitForSeconds(0.005f);  // Adjust this value to control the typing speed
+            yield return new WaitForSeconds(0.009f);  // Adjust this value to control the typing speed
             // I... Really should have rewritten this.
         }
     }

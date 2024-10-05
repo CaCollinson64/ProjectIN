@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: PlayMakerGlobals
+  m_EditorClassIdentifier: 
+  variables:
+    floatVariables: []
+    intVariables:
+    - useVariable: 1
+      name: CyanScore
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: PinkScore
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: UmberScore
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: ViridianScore
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: currentQuestionIndex
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Result
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: FirstTime
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: somethinaintright
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables: []
+    stringVariables: []
+    vector2Variables: []
+    vector3Variables: []
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables: []
+    objectVariables: []
+    materialVariables: []
+    textureVariables: []
+    arrayVariables:
+    - useVariable: 1
+      name: Questions
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 4
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues:
+      - Before we Begin... Please use a Pointer.
+      - You face a challenge. What's your first reaction? Your first instinct, off
+        the top of your head?
+      - You gaze into a mirror. Who is looking back, or is with you?
+      - How do you deal with emotions?
+      - What brings you joy?
+      - Do you have skin?
+      - Love whispers secrets.
+      - You find a door. Do you dare open it?
+      - The universe unfolds before you. What path do you take?
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: PinkQuestions
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 4
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues:
+      - Next.
+      - Analyze the situation as thoroughly as possible before acting.
+      - A shifting vision.
+      - Process them internally, seeking solitude and introspection.
+      - I'm not sure.
+      - Your eyes are burning.
+      - A chaotic symphony.
+      - Cautiously.
+      - I'll disturb the universe.
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: UmberQuestions
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 4
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues:
+      - Sounds good.
+      - Head first!
+      - My true self.
+      - Channel it into my work.
+      - It's not enough to succeed. I have to see my enemies fail.
+      - Your nose is burning.
+      - "A passionate tango. (\u201E\xAC\u1D17\xAC\u201E)"
+      - Hesitate, but kick it down.
+      - The brightest star.
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: ViridianQuestions
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 4
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues:
+      - Oh no, this is...
+      - Who are you? Bro thinks this is Deltarune
+      - 'Why is somebody in the mirror with me? Are we like, using the bathroom together? '
+      - "I can't even deal with that last question.                                   
+        (\uFF1B\uFFE3\u0414\uFFE3) <(hey bro i gotta pee)  (no prob bro me too) >
+        (\uFFE3\u25A1\uFFE3\u300D)"
+      - Being alone. Not all the time. But like, especially when i use the bathroom.
+        Seriously, what was that?
+      - Your mouth is filling with oil.
+      - A gentle waltz.
+      - Can I go back home?
+      - The path of the Protector.
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: CyanQuestions
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 4
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues:
+      - Okay.
+      - Ask my friends for help.
+      - An old friend.
+      - Express them openly, seeking validation and connection.
+      - Achieving my goals.
+      - Your ears are burning.
+      - A ballad of loss.
+      - Without hesitation.
+      - The path of the hero.
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: wait a sec
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 4
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues:
+      - Wait a sec, Somethin ain't right here.
+      - Maybe i should ask a friend for help?
+      - Why are you still doing this?
+      - Go to the computer.
+      vector4Values: []
+      objectReferences: []
+    enumVariables: []
+    categories:
+    - 
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - Cyan

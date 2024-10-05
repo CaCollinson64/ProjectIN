@@ -1737,6 +1737,7 @@ MonoBehaviour:
   nextButton: {fileID: 2021463539}
   dialoguePanel: {fileID: 775895372}
   nextKey: 101
+  _textLoop: {fileID: 0}
 --- !u!4 &1782605958
 Transform:
   m_ObjectHideFlags: 0
